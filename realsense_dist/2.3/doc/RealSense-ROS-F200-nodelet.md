@@ -51,8 +51,8 @@ Color camera
 
 ## Known issues:
 * First few frames may return error – “Failed to read image”. Just ignore those.
-* You may get UVC_LASER_POWER error. If the camera is still working, then just please ignore it.
-* Sometimes, the camera doesn’t initialize as expected and the nodelet is dying after few seconds. Simply restart the nodelet.
+* You may get UVC_LASER_POWER error. If the camera is still working, then just ignore it.
+* Sometimes, the camera doesn’t initialize as expected and the nodelet dies after few seconds. Simply restart the nodelet.
 * Check Changelog.txt for more info
 
 

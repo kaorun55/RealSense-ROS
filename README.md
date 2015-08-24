@@ -2,7 +2,7 @@
 
 In here you will find our Experimental code for RealSense-ROS.
 
-This file gives an overview of the whole offering. Each package described, contains a more detailed explanation on installation and usage. Please refer to the relevant documentation and follow the instructions accordingly.
+This file gives an overview of the whole offering. Each package contains a more detailed explanation on its installation and usage. Please refer to the relevant documentation and follow the instructions accordingly.
 
 ## What the package contains 
 
@@ -15,7 +15,7 @@ This file gives an overview of the whole offering. Each package described, conta
 *   [realsense_dist](realsense_dist)
         Installation files for R200/F200 cameras ROS nodelets 
 
-*   [realsense_dist_na](realsense_dist_na)
+*   [realsense_dist_nav](realsense_dist_nav)
         Installation files for navigation sample files
 
 Please note that:
