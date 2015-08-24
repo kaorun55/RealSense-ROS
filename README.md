@@ -18,8 +18,6 @@ This file gives an overview of the whole offering. Each package described, conta
 *   [realsense_dist_na](realsense_dist_na)
         Installation files for navigation sample files
 
-```
-
 Please note that:
 
 * IVCAM is also known as F200
