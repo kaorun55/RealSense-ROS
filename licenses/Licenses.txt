@@ -1,0 +1,2 @@
+OpenCV - http://opencv.org/license.html
+ROS - http://www.ros.org/is-ros-for-me/

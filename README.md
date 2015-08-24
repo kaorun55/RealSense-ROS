@@ -12,13 +12,13 @@ This file gives an overview of the whole offering. Each package described, conta
     realsense_dist
         Installation files for R200/F200 cameras ROS nodelets 
 
-    realsense_dist_de
+    realsense_dist_de - Coming Soon
         Installation files for Depth Enhancement ROS Nodelet
 
     realsense_dist_na
         Installation files for navigation sample files
 
-    realsense_dist_blob
+    realsense_dist_blob - Coming Soon
         Installation files for Blob Extraction Module ROS Nodelet
 
 Please note that:
@@ -26,10 +26,6 @@ Please note that:
 * IVCAM is also known as F200
 
 * DS4 is also known as R200
-
-
-## Version
-    2.0
 
 ## Tech and dependencies 
 
@@ -40,7 +36,7 @@ System:
 * F200 (IVCAM) camera
 * R200 (DS4) camera
 
-** The ROS integration has been tested on a 64bit machine with Linux 14.04.01 and ROS Indigo.
+** The ROS integration has been tested on a 64bit machine with Linux 14.04 (Trusty) and ROS Indigo.
 
 ## Installation
 
