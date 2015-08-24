@@ -48,7 +48,7 @@ Color camera
 
 ## Version
     2.3
-    
+
 ## Known issues:
 * First few frames may return error – “Failed to read image”. Just ignore those.
 * You may get UVC_LASER_POWER error. If the camera is still working, then just please ignore it.
@@ -76,7 +76,7 @@ You can also open RVIZ and load the provided RVIZ configuration file: realsenseR
 
 System:
 
-* Linux 12.04+
+* Linux 14.04+
 * ROS Indigo
 * F200 (IVCAM) camera
 

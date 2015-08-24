@@ -76,7 +76,7 @@ You can also open RVIZ and load the provided RVIZ configuration file: realsenseR
 
 System:
 
-* Linux 12.04+
+* Linux 14.04+
 * ROS Indigo
 * R200 (DS4) camera
 

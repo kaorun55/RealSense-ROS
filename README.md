@@ -4,24 +4,21 @@ In here you will find our Experimental code for RealSense-ROS.
 
 This file gives an overview of the whole offering. Each package described, contains a more detailed explanation on installation and usage. Please refer to the relevant documentation and follow the instructions accordingly.
 
-## What the package contains
-    f200_install
+## What the package contains 
+
+*   [f200_install](f200_install)
         Installation files for the F200 camera
 
-    r200_install
+*   [r200_install](r200_install)
         Installation files for the R200 camera
 
-    realsense_dist
+*   [realsense_dist](realsense_dist)
         Installation files for R200/F200 cameras ROS nodelets 
 
-    realsense_dist_de - Coming Soon
-        Installation files for Depth Enhancement ROS Nodelet
-
-    realsense_dist_na
+*   [realsense_dist_na](realsense_dist_na)
         Installation files for navigation sample files
 
-    realsense_dist_blob - Coming Soon
-        Installation files for Blob Extraction Module ROS Nodelet
+```
 
 Please note that:
 
@@ -33,7 +30,7 @@ Please note that:
 
 System:
 
-* Linux 12.04+
+* Linux 14.04+
 * ROS Indigo
 * F200 (IVCAM) camera
 * R200 (DS4) camera
