@@ -43,11 +43,13 @@ Color camera
         Specify if to enable or not the color camera. 1 is true. 0 is false.
 
 ## Services
-    None
+    configure_camera(string request)
+        Reconfigure the camera with the given parameters. 
+        For example: rosservice call /configure_camera dWidth 320 dHeight 240 dFPS 30 enableColor 0
 
 
 ## Version
-    2.0
+    2.3
 
 ## Known issues:
 * After every run, there is a need to physically unplug and re-plug the camera. If not, an Error message “Cannot determine firmware version!” will appear when trying to access the camera.
@@ -70,31 +72,7 @@ You can also open RVIZ and load the provided RVIZ configuration file: realsenseR
 
 ## Tech and dependencies 
 * libDSAPI.so (version 1.14.16)
-* libpng16
-* GLIBCXX_3.4.20
 
-Upgrade by:
-
-        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-        sudo apt-get update
-        sudo apt-get upgrade
-        sudo apt-get dist-upgrade
-
-libpng16:
-    http://www.linuxfromscratch.org/blfs/view/svn/general/libpng.html
-
-    Download compressed file from here:
-    http://sourceforge.net/projects/libpng/files/libpng16/1.6.16/
-
-    unzip & run:
-    ./configure --prefix=/usr --disable-static &&
-    make
-
-    sudo make install &&
-    sudo mkdir -v /usr/share/doc/libpng-1.6.16 &&
-    sudo cp -v README libpng-manual.txt /usr/share/doc/libpng-1.6.16
-
-** See ```ds_dependencies.txt``` for more information
 
 System:
 
@@ -102,7 +80,7 @@ System:
 * ROS Indigo
 * R200 (DS4) camera
 
-** The ROS integration has been tested on a 64bit machine with Linux 14.04.01 and ROS Indigo.
+** The ROS integration has been tested on a 64bit machine with Linux 14.04 (Trusty) and ROS Indigo.
 
 ## Installation
 
@@ -113,13 +91,9 @@ If this does not work, you should first fix this issue before continuing with th
 
 In the package folder you will find ```r200_install``` folder.
 
-Un-pack and follow the ReadMe file in order to install the R200 driver and API.
+run the install.sh script.
 
-* The provided patch_ubuntu_uvc.sh has some changes to the script in the packed files that works with Ubuntu 14.04. !! Use this file instead in this case.
-
-In the ```ds_dependencies.txt``` you will find instructions how to download other dependences if you don’t have them already.
-
-After installation is complete, restart your machine and run ```[unpacked folder]/Bin/DSSimpleCaptureGL``` app in order to test. You should see the depth and color streams in separate windows.
+After installation is complete, restart your machine and run ```[unpacked folder]/Bin/DSReadCameraInfo``` app in order to test. You should see some information about the camera (serial number, firmware version, etc.)
 
 #### Getting the nodelet to work
 

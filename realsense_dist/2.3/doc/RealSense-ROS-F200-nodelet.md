@@ -47,8 +47,8 @@ Color camera
 
 
 ## Version
-    2.0
-
+    2.3
+    
 ## Known issues:
 * First few frames may return error – “Failed to read image”. Just ignore those.
 * You may get UVC_LASER_POWER error. If the camera is still working, then just please ignore it.
@@ -73,13 +73,6 @@ You can also open RVIZ and load the provided RVIZ configuration file: realsenseR
 ## Tech and dependencies 
 
 * libivcam.so
-* GLIBCXX_3.4.20
-    Upgrade by:
-
-        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-        sudo apt-get update
-        sudo apt-get upgrade
-        sudo apt-get dist-upgrade
 
 System:
 
