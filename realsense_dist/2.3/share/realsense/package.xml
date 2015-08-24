@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+  <name>realsense</name>
+  <version>2.0.0</version>
+  <description>Intel(r) RealSense(tm) Technology package allowing access to the 3D cameras and advanced modules</description>
+
+  <maintainer email="amit.moran@intel.com">Amit Moran</maintainer>
+
+  <license>Under NDA release only. See license attached</license>
+
+  <url type="website">http://www.intel.com/realsense</url>
+
+  <author email="amit.moran@intel.com">Amit Moran</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>genmsg</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>nodelet</build_depend>
+  <build_depend>camera_info_manager</build_depend>
+
+ 
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>genmsg</run_depend> 
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>nodelet</run_depend>
+  <run_depend>camera_info_manager</run_depend>
+
+  <export>
+  	<nodelet plugin="${prefix}/f200_nodelet_plugins.xml" />
+  	<nodelet plugin="${prefix}/r200_nodelet_plugins.xml" />
+  </export>
+</package>
+

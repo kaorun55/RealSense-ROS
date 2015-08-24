@@ -1,0 +1,7 @@
+<library path="lib/libr200_camera_nodelet">
+  <class name="r200_ros/CR200Nodelet" type="r200_ros::CR200Nodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  Intel(R) RealSense(TM) R200 nodelet.
+  </description>
+  </class>
+</library>

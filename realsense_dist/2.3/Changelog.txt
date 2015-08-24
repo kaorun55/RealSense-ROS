@@ -1,0 +1,36 @@
+Changelog:
+
+V2.3
+~~~~~
+- Topics will pubilsh only if there is at least one subsriber
+- Basic Service for R200 to dynamically change configuration. Use same syntax as launch file (without :=)
+
+V2.1
+~~~~~
+- Changed TF Frames to "camera_depth_optical_frame" and "camera_color_optical_frame" to accord existing norms.
+- Added extrinsic parameters between color camera and depth camera as Frames Transforms.
+
+V2.0
+~~~~~
+- Improved performance
+- Added TF publisher for realsense_frame under world
+- Fixed message headers to include timestamp
+- Fixed UV mapping bug in DS4
+- Added multi camera support for DS4 by providing the Serial number as a parameter to the nodelet
+- Added realsenseRvizConfig.rviz file 
+- Fixed minor bugs
+- Upgraded to support 1.14.16 for DS4
+
+V1.5
+~~~~~
+
+- Changed depth encoding from mono16 to sensor_msgs::image_encodings::TYPE_16UC1 to be compatible with depth_image_proc nodes
+- Added point cloud registration with color
+- Added CameraInfo messages for R200 and F200
+- Added UV mapping message for F200
+- Fixed Bug in UV mapping for R200
+- Removed camera name in F200 - no need with new API
+
+Known issues:
+
+- F200 enableColor and enableDepth not supported.

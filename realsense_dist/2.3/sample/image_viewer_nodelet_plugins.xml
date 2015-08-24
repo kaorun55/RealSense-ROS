@@ -1,0 +1,7 @@
+<library path="lib/librealsense_image_viewer_nodelet">
+  <class name="realsense/CImageViewerNodelet" type="realsense::CImageViewerNodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  Intel(R) RealSense(TM) image viewer nodelet.
+  </description>
+  </class>
+</library>

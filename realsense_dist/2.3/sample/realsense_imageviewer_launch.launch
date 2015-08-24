@@ -1,0 +1,9 @@
+<launch>
+  	<node pkg="nodelet" type="nodelet" name="standalone_nodelet_viewer"  args="manager"/>
+
+	<!-- Image Viewer nodelet -->
+  	<node pkg="nodelet" type="nodelet" name="CImageViewerNodelet"
+        	args="load realsense/CImageViewerNodelet standalone_nodelet_viewer">
+  	</node>
+  
+</launch> 
