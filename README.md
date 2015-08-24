@@ -1,5 +1,7 @@
 # Intel&reg; RealSense&trade; Technology - ROS Integration
 
+In here you will find our Experimental code for RealSense-ROS.
+
 This file gives an overview of the whole offering. Each package described, contains a more detailed explanation on installation and usage. Please refer to the relevant documentation and follow the instructions accordingly.
 
 ## What the package contains
