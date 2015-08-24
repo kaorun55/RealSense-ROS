@@ -6,11 +6,11 @@
 
   <maintainer email="amit.moran@intel.com">Amit Moran</maintainer>
 
-  <license>Under NDA release only. See license attached</license>
+  <license>See license attached.</license>
 
-  <url type="website">http://www.intel.com/realsense</url>
+  <url type="website">https://github.com/PercATI/RealSense-ROS</url>
 
-  <author email="amit.moran@intel.com">Amit Moran</author> -->
+  <author email="amit.moran@intel.com">Amit Moran</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
