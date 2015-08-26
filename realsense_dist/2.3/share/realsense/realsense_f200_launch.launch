@@ -4,7 +4,7 @@
 	<arg name="cWidth" default="640" />
 	<arg name="dHeight" default="480" />
 	<arg name="dWidth" default="640" />
-	<arg name="pcScale" default="1" />
+	<arg name="pcScale" default="1000" />
 	<arg name="enableDepth" default="1" />
 	<arg name="enableColor" default="1" />
 	

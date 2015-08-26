@@ -6,7 +6,7 @@
 	<arg name="dWidth" default="480" />
 	<arg name="colorCamera" default="/dev/video1" />
 	<arg name="depthCamera" default="/dev/video2" />
-	<arg name="pcScale" default="1" />
+	<arg name="pcScale" default="1000" />
 	<arg name="enableDepth" default="1" />
 	<arg name="enableColor" default="1" />
 	<arg name="directory" default="0" />
