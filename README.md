@@ -30,8 +30,8 @@ System:
 
 * Linux 14.04+
 * ROS Indigo
-* F200 (IVCAM) camera
-* R200 (DS4) camera
+* Short range (F200) camera
+* Longer range (R200) camera
 
 ** The ROS integration has been tested on a 64bit machine with Linux 14.04 (Trusty) and ROS Indigo.
 
