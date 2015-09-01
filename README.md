@@ -7,10 +7,10 @@ This file gives an overview of the whole offering. Each package contains a more 
 ## What the package contains 
 
 *   [f200_install](f200_install)
-        Installation files for the F200 camera
+        Installation files for the short range (F200) camera
 
 *   [r200_install](r200_install)
-        Installation files for the R200 camera
+        Installation files for the longer range (R200) camera
 
 *   [realsense_dist](realsense_dist)
         Installation files for R200/F200 cameras ROS nodelets 
@@ -20,9 +20,9 @@ This file gives an overview of the whole offering. Each package contains a more 
 
 Please note that:
 
-* IVCAM is also known as F200
+* IVCAM is also known as F200 - short range camera
 
-* DS4 is also known as R200
+* DS4 is also known as R200 - longer range camera
 
 ## Tech and dependencies 
 
