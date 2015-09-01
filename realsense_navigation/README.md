@@ -7,12 +7,19 @@ It assumes the **DS4** drivers were already installed, and that the navigation u
 #### Document outline
 Click on the following links to navigate this document
 
-- [Initial setup](#a-initial-setup)
-- [Mapping](#b-mapping)
-- [Navigation](#c-navigation)
-- [Simulating a mapping](#d-simulating-a-mapping)
+- [Install](#a-install)
+- [Initial setup](#b-initial-setup)
+- [Mapping](#c-mapping)
+- [Navigation](#d-navigation)
+- [Simulating a mapping](#e-simulating-a-mapping)
 
-## A - Initial setup
+## A - Install
+
+```bash
+catkin_make --install --pkg realsense_navigation
+```
+
+## B - Initial setup
 
 First, make sure you have the latest versions of the ROS navigation stack. Specifically, check that the following packages are up-to-date:
 
@@ -46,7 +53,7 @@ roslaunch realsense realsense_r200_launch_remapped.launch
 roslaunch realsense_depth_enhance realsense_depth_enhance.launch
 ```
 
-## B - Mapping
+## C - Mapping
 
 The only difference from the kinect version of the navigation stack is that you need to start the camera driver before the navigation: `roslaunch realsense realsense_r200_launch.launch`.
 
@@ -72,7 +79,7 @@ rosrun map_server map_saver -f <map-file>
 > Don't put an extension to your map name, the .*yaml* and .*pgm* files will be created accordingly in you `~/.ros` folder. If you want, you can also provide an absolute path.
 
 
-## C - Navigation
+## D - Navigation
 
 Once you have a map, you can start the navigation with the following commands
 
@@ -82,7 +89,7 @@ roslaunch realsense realsense_r200_launch.launch
 roslaunch realsense_navigation navigation_demo.launch map:=<map-file>
 ```
 
-## D - Simulating a mapping
+## E - Simulating a mapping
 Now that you know how to map a room using the **DS4**, you might need to repeat the process several times, to adjust all the parameters of the algorithm, or to test with depth enhancement. To avoid using the robot, we can simulate the scanning process (= robot moves + camera) thanks to **rosbag**.
 
 ### 1. Recording a scan

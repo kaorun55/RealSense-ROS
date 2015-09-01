@@ -13,10 +13,10 @@
   <author email="amit.moran@intel.com">Amit Moran</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>rospy</build_depend>
+  <build_depend>turtlebot_description</build_depend>
+  <build_depend>turtlebot_bringup</build_depend>
  
-  <run_depend>roscpp</run_depend>
-  <run_depend>rospy</run_depend>
+  <run_depend>turtlebot_description</run_depend>
+  <run_depend>turtlebot_bringup</run_depend>
 
 </package>
